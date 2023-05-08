@@ -2,7 +2,7 @@ name: Build frontend
 
 on:
   push:
-    path: 
+    paths: 
       - '!backend/**'
     branches: [main] 
   pull_request:
