@@ -1,10 +1,9 @@
 name: Build frontend
 
-
 on:
   push:
     path: 
-      - '!backend'
+      - '!backend/**'
     branches: [main] 
   pull_request:
     types: [opened, synchronize, reopened]
